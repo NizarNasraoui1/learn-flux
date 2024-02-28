@@ -15,7 +15,7 @@ spec:
     spec:
       securityContext:
         runAsNonRoot: true
-        runAsUser: 1000 # Adjust this as needed based on your container's user configuration
+        runAsUser: 1000 # Adjust this as needed based on your container's user 
       containers:
       - name: springapp
         image: api-flux:1.0.1
