@@ -5,7 +5,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 10s
-  path: "./java/k8s"
+  path: "./"
   prune: true
   sourceRef:
     kind: GitRepository
