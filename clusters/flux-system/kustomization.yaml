@@ -10,3 +10,4 @@ spec:
   sourceRef:
     kind: GitRepository
     name: my-java-app
+  targetNamespace: flux-system
