@@ -2,10 +2,10 @@ apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
   name: my-java-app
-  namespace: flux-system
+  namespace: default
 spec:
   interval: 10s
   ref:
-    branch: main
+    branch: master
   url: "https://github.com/NizarNasraoui1/learn-fluxcd.git"
 
