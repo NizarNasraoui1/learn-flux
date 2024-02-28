@@ -5,9 +5,14 @@ metadata:
   namespace: flux-system
 spec:
   interval: 10s
-  path: "./"
-  prune: true
+  targetNamespace: flux-system
   sourceRef:
     kind: GitRepository
     name: my-java-app
-  targetNamespace: flux-system
+  path: "./java/k8s"
+  prune: true
+  
+
+
+
+  
