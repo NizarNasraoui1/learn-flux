@@ -18,7 +18,7 @@ spec:
         runAsUser: 1000 # Adjust this as needed based on your container's user configuration
       containers:
       - name: springapp
-        image: api-flux:1.0.1
+        image: api-flux:1.0.0
         ports:
         - containerPort: 8080
         securityContext:
